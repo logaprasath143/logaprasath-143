@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS:Basics</title>
+        <meta name="description" content=" CSS - Cascading Style sheet(css 3) is a current css was introduced in 1999 itself.">
+        <meta name="keyword" content=" css basics,css">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+
+         <!--External tag-->
+         <link rel="stylesheet" href="css/style.css">
+ 
+        
+        <!--Internal tag--> 
+        <p><a href="#Typeselector">Typeselector</a></p>
+         <style>
+              h{
+                  color : red;
+              }
+              p{
+                  color :green;
+              }
+              div{
+                  color : blue;
+              }
+          </style>
+
+         <p><a href="#universalselector">universalselector</a></p>
+         <!-- <style>
+              *{
+                  color:black;
+              }
+          </style>-->
+
+        <p><a href="#classselector">classselector</a></p>
+          <style>
+             .textgreen{
+                 color:blue
+             }
+         </style>
+
+         <p><a href="#Idselector">Idselector</a></p>
+         <style>
+             #aboutsection{ 
+                 color: blueviolet;
+             }
+        </style>
+
+        <p><a href="#csscolorandbackgroundimage">csscolorandbackgroundimage</a></p>
+        <style>
+            #divcontainer{
+                background-color: blueviolet;
+                background-image: url(image/bridge.jpg);
+                color:#a2e9f5;
+                color:rgb(197, 200, 40); 
+            }
+        </style>
+
+        
+           
+    </head>
+
+    <body>
+        Embedding syle tag has three types:
+            <ol>
+                <li>Internal styles</li>
+                <li>Inline styles</li>
+                <li>External css</li>
+            </ol>
+        
+        CSS selectors:
+        <ol>
+            <li>Type slectors</li>
+            <li>universal slectors</li>
+            <li>class slectors</li>
+            <li>ID slectors</li>
+        </ol>
+
+        <a name="Typeselector"></a>
+       <h1> 1. Type selector:</h1>
+        <h>HTML</h>
+        <p>CSS</p>
+        <div>Java script</div><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+        
+        <a name="universalselector"></a>  
+         <h1>2. Universal selectors:</h1>
+        <h1>HTML</h1>
+        <h2>CSS</h2>
+        <h3>Java script</h3>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="classselector"></a>
+        <h1>3. Class selectors:</h1>
+        <p class="textgreen"> 
+            The class selectors is used to change a color in whole text of the class selector.<br>
+            It is useful in changing color in this selectors.
+        </p>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="Idselector"></a>
+       <h1> 4. Id selectors:</h1>
+        <section id="aboutsection">
+           The Id selector is used to changing the color in section tag.
+        </section><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="csscolorandbackgroundimage"></a>
+        <h1>5. css color and background image</h1>
+        <div id="divcontainer">
+            css color has many color. but basic colors are white and black.<br>
+            And then RGB+alpha. RGB id red, green, blue
+        </div><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+       
+    </body>
+
+</html><!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS:Basics</title>
+        <meta name="description" content=" CSS - Cascading Style sheet(css 3) is a current css was introduced in 1999 itself.">
+        <meta name="keyword" content=" css basics,css">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+
+         <!--External tag-->
+         <link rel="stylesheet" href="css/style.css">
+ 
+        
+        <!--Internal tag--> 
+        <p><a href="#Typeselector">Typeselector</a></p>
+         <style>
+              h{
+                  color : red;
+              }
+              p{
+                  color :green;
+              }
+              div{
+                  color : blue;
+              }
+          </style>
+
+         <p><a href="#universalselector">universalselector</a></p>
+         <!-- <style>
+              *{
+                  color:black;
+              }
+          </style>-->
+
+        <p><a href="#classselector">classselector</a></p>
+          <style>
+             .textgreen{
+                 color:blue
+             }
+         </style>
+
+         <p><a href="#Idselector">Idselector</a></p>
+         <style>
+             #aboutsection{ 
+                 color: blueviolet;
+             }
+        </style>
+
+        <p><a href="#csscolorandbackgroundimage">csscolorandbackgroundimage</a></p>
+        <style>
+            #divcontainer{
+                background-color: blueviolet;
+                background-image: url(image/bridge.jpg);
+                color:#a2e9f5;
+                color:rgb(197, 200, 40); 
+            }
+        </style>
+
+        
+           
+    </head>
+
+    <body>
+        Embedding syle tag has three types:
+            <ol>
+                <li>Internal styles</li>
+                <li>Inline styles</li>
+                <li>External css</li>
+            </ol>
+        
+        CSS selectors:
+        <ol>
+            <li>Type slectors</li>
+            <li>universal slectors</li>
+            <li>class slectors</li>
+            <li>ID slectors</li>
+        </ol>
+
+        <a name="Typeselector"></a>
+       <h1> 1. Type selector:</h1>
+        <h>HTML</h>
+        <p>CSS</p>
+        <div>Java script</div><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+        
+        <a name="universalselector"></a>  
+         <h1>2. Universal selectors:</h1>
+        <h1>HTML</h1>
+        <h2>CSS</h2>
+        <h3>Java script</h3>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="classselector"></a>
+        <h1>3. Class selectors:</h1>
+        <p class="textgreen"> 
+            The class selectors is used to change a color in whole text of the class selector.<br>
+            It is useful in changing color in this selectors.
+        </p>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="Idselector"></a>
+       <h1> 4. Id selectors:</h1>
+        <section id="aboutsection">
+           The Id selector is used to changing the color in section tag.
+        </section><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+        <a name="csscolorandbackgroundimage"></a>
+        <h1>5. css color and background image</h1>
+        <div id="divcontainer">
+            css color has many color. but basic colors are white and black.<br>
+            And then RGB+alpha. RGB id red, green, blue
+        </div><br>
+        <a href="#top">GO to top</a>
+        <br><br>
+
+       
+    </body>
+
+</html>
